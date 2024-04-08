@@ -1,0 +1,19 @@
+name: thalamus-merfish-demo
+channels:
+  - defaults
+dependencies:
+  - scipy==1.9.1
+  - seaborn==0.12.2
+  - pip:
+    - anndata==0.8.0
+    - colorcet==3.0.1
+    - geojson==3.0.1
+    - geopandas==0.13.1
+    - hdbscan==0.8.33
+    - nibabel==5.1.0
+    - scanpy==1.9.3
+    - scikit-learn==1.2.2
+    - shapely==2.0.1
+    - zarr==2.17.0
+    - git+https://github.com/AllenNeuralDynamics/thalamus-merfish-analysis#egg=thalamus-merfish-analysis
+prefix: /opt/conda
